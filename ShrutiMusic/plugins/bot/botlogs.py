@@ -27,12 +27,12 @@ async def join_watcher(_, message):
                     pass
                 
                 msg = (
-                    f"Music Bot Added In A New Group\n\n"
-                    f"Chat Name: {message.chat.title}\n"
-                    f"Chat ID: {message.chat.id}\n"
-                    f"Chat Username: @{username}\n"
-                    f"Group Members: {count}\n"
-                    f"Added By: {message.from_user.mention}"
+                    f"ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ \n\n"
+                    f"ᴄʜᴀᴛ ɴᴀᴍᴇ: {message.chat.title}\n"
+                    f"ᴄʜᴀᴛ ɪᴅ: {message.chat.id}\n"
+                    f"ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{username}\n"
+                    f"ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
+                    f"ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
                     f"{invite_link}"
                 )
                 
