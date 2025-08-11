@@ -1,4 +1,4 @@
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #     ⚙️ CONFIGURATION FILE | Powered By @silemthrax & @RED_FM_MUSIC_BOT
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -16,8 +16,8 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Silenthrax")
+OWNER_ID = int(os.getenv("OWNER_ID", 7694170809))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Og_Tenny")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -32,7 +32,7 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Silenthrax/SHRUTI")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Nobi-123/SHRUTI")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -40,8 +40,8 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Silenthrax")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/BESTIE_UNITE_CLUB")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/botXcardio")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/CardioXsupport")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -85,18 +85,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/yi9mms.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/yi9mms.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/sl2c2f.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/ad07i4.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/sl2c2f.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/sl2c2f.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/sl2c2f.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
@@ -138,3 +138,4 @@ if SUPPORT_GROUP:
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #     ✅ CONFIG LOADED SUCCESSFULLY | Designed By @silenthrax
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
